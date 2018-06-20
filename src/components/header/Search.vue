@@ -138,11 +138,11 @@ export default {
 }
 
 .tooltip.search-tip .tooltip-inner {
-  background-color: #ef192d;
+  background-color: #50E3C2;
   color: white;
 }
 
 .tooltip.search-tip .tooltip-arrow {
-  border-color: #ef192d;
+  border-color: #50E3C2;
 }
 </style>
