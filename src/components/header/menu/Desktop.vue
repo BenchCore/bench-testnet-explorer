@@ -16,12 +16,12 @@
     <router-link :to="{ name: 'home' }" tag="button" class="menu-button">{{ $t("Home") }}</router-link>
     <router-link :to="{ name: 'top-wallets', params: { page: 1 } }" tag="button" class="menu-button">{{ $t("Top Wallets") }}</router-link>
     <router-link :to="{ name: 'delegate-monitor' }" tag="button" class="menu-button">{{ $t("Delegate Monitor") }}</router-link>
-    <router-link to="/tex" tag="button" class="menu-button">TEX Explorer</router-link>
-    <router-link to="/muzex" tag="button" class="menu-button">MUZ Explorer</router-link>
-    <router-link to="/sharex" tag="button" class="menu-button">SHARE Explorer</router-link>
-    <router-link to="/danex" tag="button" class="menu-button">DAN Explorer</router-link>
-    <router-link to="/videx" tag="button" class="menu-button">VID Explorer</router-link>
-    <router-link to="/shopex" tag="button" class="menu-button">SHOP Explorer</router-link>
+    <router-link href="http://bex.benchcore.io" tag="button" class="menu-button">BEX Explorer</router-link>
+    <router-link href="http://muzex.benchcore.io" tag="button" class="menu-button">MUZ Explorer</router-link>
+    <router-link href="http://sharex.benchcore.io" tag="button" class="menu-button">SHARE Explorer</router-link>
+    <router-link href="http://danex.benchcore.io" tag="button" class="menu-button">DAN Explorer</router-link>
+    <router-link href="http://videx.benchcore.io" tag="button" class="menu-button">VID Explorer</router-link>
+    <router-link href="http://shopex.benchcore.io" tag="button" class="menu-button">SHOP Explorer</router-link>
     <!-- <router-link :to="{ name: 'statistics' }" tag="button" class="menu-button">Statistics</router-link> -->
 
     <div class="flex-auto"></div>
