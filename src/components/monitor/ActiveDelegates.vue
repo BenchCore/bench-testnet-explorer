@@ -102,10 +102,10 @@ export default {
       return {
         '0': '#46b02e', // Forging
         '1': '#f6993f', // Missing
-        '2': '#ef192d', // Not Forging
+        '2': '#50E3C2', // Not Forging
         '3': '#838a9b', // Awaiting Slot
         '4': '#f6993f', // Missed in previous round, now awaiting Slot
-        '5': '#ef192d', // Not Forging
+        '5': '#50E3C2', // Not Forging
       }[row.forgingStatus.code]
     }
   },
