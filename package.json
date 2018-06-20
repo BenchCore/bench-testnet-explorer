@@ -7,8 +7,8 @@
   "scripts": {
     "build": "node build/build.js",
     "build:texnet": "node build/build.js --network texnet",
-    "live": "rm /var/www/html/* && mv ~/benchcore-explorer/dist/* /var/www/html",
-    "live-test": "rm /var/www/html/* && mv ~/bench-testnet-explorer/dist/* /var/www/html",
+    "live": "rm -r /var/www/html/* && mv ~/benchcore-explorer/dist/* /var/www/html",
+    "live-test": "rm -r /var/www/html/* && mv ~/bench-testnet-explorer/dist/* /var/www/html",
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "dev:texnet": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js --env.network=texnet",
     "unit": "jest --config test/unit/jest.conf.js --coverage",
