@@ -1,7 +1,7 @@
 {
-  "title": "BenchPay Network Explorer",
-  "server": "http://node1.bex.life:6620/api",
-  "alias": "Main",
+  "title": "BenchCore TestNet Explorer",
+  "server": "http://51.15.113.19:6619/api",
+  "alias": "Test",
   "activeDelegates": 51,
   "rewardOffset": 75600,
   "currencies": {
