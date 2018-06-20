@@ -100,7 +100,7 @@ export default {
 
     statusColor(row) {
       return {
-        '0': '#46b02e', // Forging
+        '0': '#6550E3', // Forging
         '1': '#f6993f', // Missing
         '2': '#50E3C2', // Not Forging
         '3': '#838a9b', // Awaiting Slot
