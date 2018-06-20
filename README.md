@@ -88,4 +88,4 @@ $ yarn test
 
 ## License
 
-[MIT](LICENSE) © [Bench Foundation, LLC](https://benchcore.io)
+[MIT](LICENSE) © [Distributed Webs Project, LLC.](https://dwebs.io)
