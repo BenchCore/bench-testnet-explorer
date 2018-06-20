@@ -104,7 +104,7 @@ let colors = {
   'green-darkest': '#0f2f21',
   'green-darker': '#1a4731',
   'green-dark': '#1f9d55',
-  green: '#6550E3', // UPDATED
+  green: '#50E3C2', // UPDATED
   'green-light': '#51d88a',
   'green-lighter': '#a2f5bf',
   'green-lightest': '#e3fcec',
