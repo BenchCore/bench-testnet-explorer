@@ -1,13 +1,13 @@
-# BenchCore Explorer
+# Bench Testnet Explorer
 
-You can access it at [https://explorer.bex.life/](http://explorer.bex.life).
+You can access it at [https://tex.benchcore.io/](http://tex.benchcore).
 
 ## Build Setup
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/benchcore/bex-explorer
+git clone https://github.com/benchcore/bench-testnet-explorer && cd bench-testnet-explorer
 ```
 
 ### 2. Install Dependencies
@@ -16,27 +16,13 @@ git clone https://github.com/benchcore/bex-explorer
 yarn install
 ```
 
-### 3. Build for Production
-
-#### 3.1 BenchCore Live Network
+### 3.Build For Production
 
 ```bash
-yarn build:bexnet
+yarn build:texnet
 ```
 
-#### 3.2 BenchCore Test Network
-
-```bash
-yarn build:dexnet
-```
-
-#### 3.3 Custom
-
-```bash
-yarn build --network my-custom-network
-```
-
-#### 3.4 GitHub Pages
+#### Build For GitHub Pages
 
 If you are going to host your explorer instance on GitHub Pages you will need to specify your base url in most cases as GitHub Pages serves repositories from sub-directories instead of sub-domains.
 
@@ -63,7 +49,7 @@ If you wish to remove the `/#/` from your URLs you can follow those steps https:
 ### 4.1 Build
 
 ```bash
-yarn build:bexnet --history
+yarn build:texnet --history
 ```
 
 ### 4.2 Development
@@ -76,22 +62,8 @@ yarn dev --env.routerMode=history
 
 ## 5. Development
 
-#### Bexnet
-
 ```bash
-yarn dev # or yarn dev:bexnet
-```
-
-#### Dexnet
-
-```bash
-yarn dev:dexnet
-```
-
-#### Custom
-
-```bash
-yarn dev --env.network=custom
+yarn dev # or yarn dev:texnet
 ```
 
 #### Change Router Mode
@@ -116,4 +88,4 @@ $ yarn test
 
 ## License
 
-[MIT](LICENSE) © [BenchPay Foundation, LLC](https://benchpay.io)
+[MIT](LICENSE) © [Bench Foundation, LLC](https://benchcore.io)
