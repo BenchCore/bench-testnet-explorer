@@ -180,11 +180,11 @@ export default {
 
 <style scoped>
 .address-button {
-  background-color: #0964e4;
+  background-color: #50E3C2;
 }
 
 .address-button:hover {
-  background-color: #0964e4;
+  background-color: #50E3C2;
   transform: scale(1.1);
 }
 </style>
