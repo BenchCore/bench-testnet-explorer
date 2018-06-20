@@ -126,12 +126,12 @@
 
 /* Not Forging */
 .tooltip.tooltip-bg-2 .tooltip-inner {
-  background-color: #ef192d;
+  background-color: #50E3C2;
   color: white;
 }
 
 .tooltip.tooltip-bg-2 .tooltip-arrow {
-  border-color: #ef192d;
+  border-color: #50E3C2;
 }
 
 /* Awaiting Slot */
@@ -156,10 +156,10 @@
 
 /* Not Forging */
 .tooltip.tooltip-bg-5 .tooltip-inner {
-  background-color: #ef192d;
+  background-color: #50E3C2;
   color: white;
 }
 
 .tooltip.tooltip-bg-5 .tooltip-arrow {
-  border-color: #ef192d;
+  border-color: #50E3C2;
 }
